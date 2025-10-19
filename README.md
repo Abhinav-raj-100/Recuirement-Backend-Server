@@ -40,15 +40,6 @@ mvn clean install
 
 # Run the application
 mvn spring-boot:run
-# Clone the repository
-git clone https://github.com/your-username/recruitment-backend.git
-cd recruitment-backend
-
-# Build the project
-mvn clean install
-
-# Run the application
-mvn spring-boot:run
 The server starts on http://localhost:9090 
 
 📚 API Documentation
