@@ -37,7 +37,7 @@ You can test all APIs from Swagger, like signup, login, job creation, and resume
 ---
 
 ## Project Structure
-src/
+ src/
 └── main/
 ├── java/
 │ └── com/
