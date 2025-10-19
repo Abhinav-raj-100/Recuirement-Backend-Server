@@ -177,24 +177,6 @@ app.jwt-expiration-ms=86400000
 spring.servlet.multipart.max-file-size=5MB
 spring.servlet.multipart.max-request-size=5MB
 
-# Server
-server.port=9090
-
-# Database (H2 for dev)
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.driver-class-name=org.h2.Driver
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-spring.h2.console.enabled=true
-
-# JWT
-app.jwt-secret=yourStrongSecretKeyHereAtLeast32CharactersLong!
-app.jwt-expiration-ms=86400000
-
-# File Upload (for resumes)
-spring.servlet.multipart.max-file-size=5MB
-spring.servlet.multipart.max-request-size=5MB
-For production, switch to MySQL and use environment variables for secrets. 
-
 🤝 Contributing
 Contributions are welcome! Please follow these steps:
 
