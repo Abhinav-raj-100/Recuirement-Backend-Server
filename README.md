@@ -38,15 +38,18 @@ You can test all APIs from Swagger, like signup, login, job creation, and resume
 
 ## Project Structure
 src/
-└─ main/
-├─ java/com/backend/recuirement
-│ ├─ controller/ # REST controllers
-│ ├─ entities/ # JPA entities
-│ ├─ repository/ # Spring Data Repositories
-│ ├─ service/ # Service layer
-│ └─ config/ # Security & Swagger configuration
-└─ resources/
-└─ application.properties
+└── main/
+├── java/
+│ └── com/
+│ └── backend/
+│ └── recuirement/
+│ ├── controller/ # REST controllers
+│ ├── entities/ # JPA entities
+│ ├── repository/ # Spring Data Repositories
+│ ├── service/ # Service layer
+│ └── config/ # Security & Swagger configuration
+└── resources/
+└── application.properties
 
 
 This is the complete README content, fully structured and beginner-friendly, ready to paste into your repo.  
