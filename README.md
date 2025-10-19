@@ -50,8 +50,3 @@ You can test all APIs from Swagger, like signup, login, job creation, and resume
 │ └── config/ # Security & Swagger configuration
 └── resources/
 └── application.properties
-
-
-This is the complete README content, fully structured and beginner-friendly, ready to paste into your repo.  
-
-Do you want me to **also make it visually interactive with sample images and icons embedded**?
