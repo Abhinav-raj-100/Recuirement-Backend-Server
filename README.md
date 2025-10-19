@@ -31,17 +31,15 @@ Git
 MySQL (optional; H2 used by default in dev)
 Clone & Run
 bash
+# Clone the repository
+git clone https://github.com/your-username/recruitment-backend.git
+cd recruitment-backend
 
+# Build the project
+mvn clean install
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
+# Run the application
+mvn spring-boot:run
 # Clone the repository
 git clone https://github.com/your-username/recruitment-backend.git
 cd recruitment-backend
@@ -65,21 +63,6 @@ Use Token → Include in Authorization: Bearer <token> header for protected rout
 Admin accounts must be created manually or via seed data (not via public signup). 
 
 🗂️ Project Structure
-
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
 src/
 └── main/
     ├── java/
